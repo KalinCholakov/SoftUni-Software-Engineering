@@ -86,7 +86,7 @@ public class Problem11ArrayManipulator {
     }
 
     private static boolean isValidCount(int count, int length) {
-        return count <= length;
+        return count >= 0 && count <= length;
     }
 
     private static void printLastOdd(int[] numbers, int countLast) {
