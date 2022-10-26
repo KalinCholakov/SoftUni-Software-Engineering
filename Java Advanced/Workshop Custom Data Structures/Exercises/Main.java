@@ -33,5 +33,16 @@ public class Main {
 
         System.out.println(linkedListTail.removeLast());
 
+        DoublyLinkedList doublyLinkedList = new DoublyLinkedList();
+
+        doublyLinkedList.addFirst(56);
+        doublyLinkedList.addFirst(78);
+        doublyLinkedList.addFirst(6);
+        doublyLinkedList.addLast(5);
+        doublyLinkedList.removeFirst();
+        doublyLinkedList.removeLast();
+
+        System.out.println(doublyLinkedList.removeLast());
+
     }
 }
